@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "100455856650826075",
+    "firebase_url": "https://sociohub-77e1f.firebaseio.com",
+    "project_id": "sociohub-77e1f",
+    "storage_bucket": "sociohub-77e1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:100588865540440826075:android:096578f62ce9249e",
+        "android_client_info": {
+          "package_name": "com.sandysmitsks.sociohub.sociohub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10002556878440826075-g4ivnml32ljagq7satlf56ujdhua6cgk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sandysmitsks.sociohub.sociohub",
+            "certificate_hash": "d77898fhtrhac92d65f7d1e7a50065bd29fc7ed1d3780"
+          }
+        },
+        {
+          "client_id": "100044083885826075-j3ah94k3lrd3r19u6gggs48ipelr6tba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sandysmitsks.sociohub.sociohub",
+            "certificate_hash": "00d67d83ef3c8e202cc82561eaa753fc745e563d"
+          }
+        },
+        {
+          "client_id": "100044045687775826075-5rvan7uk3369l3vbm7urc17fnkuo45rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sandysmitsks.sociohub.sociohub",
+            "certificate_hash": "f3fd1b9090002b48fd83e01e8280fc19476e10e9"
+          }
+        },
+        {
+          "client_id": "1000440826075-04512kjpg5dvt97e8ve11m3dhl8ehin8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKNyJgsfwgjk7ll4564gGXg8ICsXPvtyJq3NyGn18DIU0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1000440456669826075-04512kjpg5dvt97e8ve11m3dhl8ehin8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

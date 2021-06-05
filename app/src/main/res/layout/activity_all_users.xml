@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    tools:context=".AllUsersActivity"
+    android:background="@drawable/snow">
+
+    <include
+        android:id="@+id/all_users_app_bar"
+        layout="@layout/app_bar_layout"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"></include>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/all_users_list"
+        android:layout_width="match_parent"
+        android:layout_height="437dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="99dp"></android.support.v7.widget.RecyclerView>
+
+    <EditText
+        android:id="@+id/search_input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/all_users_app_bar"
+        android:background="@drawable/oval"
+        android:ems="10"
+        android:hint="Search here..."
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <ImageButton
+        android:id="@+id/search_people_button"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/all_users_list"
+        android:layout_alignParentEnd="true"
+
+        android:layout_marginBottom="-99dp"
+        android:layout_marginEnd="17dp"
+        android:background="@drawable/oval"
+        app:srcCompat="@drawable/searchn" />
+
+
+</RelativeLayout>
